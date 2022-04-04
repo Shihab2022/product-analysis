@@ -1,6 +1,7 @@
 # Bike Customer Reviews
 
  [Live site link ](https://leafy-syrniki-f755ce.netlify.app/).
+ [https://leafy-syrniki-f755ce.netlify.app/]
 
 
 
