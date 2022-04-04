@@ -1,10 +1,17 @@
-# Getting Started with Create React App
+# Bike Customer Reviews
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ [Live site link ](https://leafy-syrniki-f755ce.netlify.app/).
 
-## Available Scripts
 
-In the project directory, you can run:
+
+
+## My  project details
+
+- One home page .This page have slider and some review .
+- If you want to see all review you can go review .
+- This website have some charts . This chart you can see the investment,revenue etc .
+- Have one blog page .You can read details context api ,semantic tag and inline block inline-block element.
+
 
 ### `npm start`
 
