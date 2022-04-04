@@ -1,15 +1,12 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import {Area, AreaChart, CartesianGrid, Tooltip, XAxis, YAxis } from 'recharts';
+import useGetChartData from '../../Hooks/GetChartData';
 
 
 const AreaCharts = () => {
-    const [chartData,setChartData]=useState([])
-    useEffect(() =>{
-        fetch('chartData.json')
-        .then(res=>res.json())
-        .then(data=>setChartData(data))
-    },[])
-    console.log(chartData)
+
+    const [chartData]=useGetChartData()
+
     return (
       <AreaChart
         width={600}

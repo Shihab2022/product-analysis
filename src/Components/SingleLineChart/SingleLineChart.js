@@ -1,15 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
+import useGetChartData from '../../Hooks/GetChartData';
 
 const SingleLineChart = () => {
-    const [data,setData]=useState([])
-    useEffect(() =>{
-        fetch('chartData.json')
-        .then(res=>res.json())
-        .then(data=>setData(data))
-    },[])
+    const [chartData]=useGetChartData()
 return (
-    <LineChart width={500} height={500} data={data}>
+    <LineChart width={500} height={500} data={chartData}>
     <Line dataKey={'investment'} stroke="#8884d8"></Line>
     <XAxis dataKey="month"></XAxis>
     <Tooltip />
