@@ -53,20 +53,14 @@ const Home = () => {
         ))}
       </div>
 
-
-
-{/* button */}
-<div className="flex justify-center items-center mb-5"> 
-<Link to="/reviews">
-      
+      {/* button */}
+      <div className="flex justify-center items-center mb-5">
+        <Link to="/reviews">
           <button className="py-2 rounded-md text-white text-xl my-5 px-20 bg-red-500">
-         See All Reviews
+            See All Reviews
           </button>
-        
-      </Link>
-
-</div>
-      
+        </Link>
+      </div>
     </div>
   );
 };
