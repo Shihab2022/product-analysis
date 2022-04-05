@@ -9,9 +9,19 @@
 ## My  project details
 
 - One home page .This page have slider and some review .
-- If you want to see all review you can go review .
-- This website have some charts . This chart you can see the investment,revenue etc .
+- If you want to see all review you can go review page .
+- This website have some charts . This chart you can see the investment, revenue etc .
 - Have one blog page .You can read details context api ,semantic tag and inline block inline-block element.
+
+
+
+
+
+
+
+
+
+
 
 
 ### `npm start`

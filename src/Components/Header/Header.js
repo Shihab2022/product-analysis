@@ -1,5 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+import CustomLink from '../CustomLink/CustomLink';
 
 const Header = () => {
     return (
@@ -8,12 +9,13 @@ const Header = () => {
             <img src={`https://pluspng.com/img-png/dirt-bike-wheelie-png-menu-800.png`} alt="" />
             </div>
            
-         <div className=''>
-            <Link className="md:ml-10 ml-3 md:text-xl" to='/'>HOME</Link>
-            <Link className="md:ml-10 ml-3 md:text-xl" to='/reviews'>REVIEWS</Link>
-            <Link className="md:ml-10 ml-3 md:text-xl" to='/dashboard'>DASHBOARD</Link>
-            <Link className="md:ml-10 ml-3 md:text-xl" to='/blogs'>BLOGS</Link>
-            <Link className="md:ml-10 ml-3 md:text-xl" to='/about'>ABOUT</Link>
+         <div className='flex'>
+             <CustomLink className="md:ml-10 ml-3 md:text-xl" to='/'>HOME</CustomLink>
+           
+            <CustomLink className="md:ml-10 ml-3 md:text-xl" to='/reviews'>REVIEWS</CustomLink>
+            <CustomLink className="md:ml-10 ml-3 md:text-xl" to='/dashboard'>DASHBOARD</CustomLink>
+            <CustomLink className="md:ml-10 ml-3 md:text-xl" to='/blogs'>BLOGS</CustomLink>
+            <CustomLink className="md:ml-10 ml-3 md:text-xl" to='/about'>ABOUT</CustomLink>
          </div>
         </div>
     );

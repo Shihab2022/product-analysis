@@ -5,8 +5,8 @@ import SingleLineChart from "../SingleLineChart/SingleLineChart";
 
 const Dashboard = () => {
   return (
-    <div className="grid md:grid-cols-2 md:px-28 px-5 py-10">
-      <div className="my-5">
+    <div className="grid sm:grid-cols-2 md:px-28 px-5 py-10">
+      <div className="my-5 md:w-[100%] w-[60%] ">
           <h1 className='text-3xl mb-16 font-bold text-center text-lime-800'> Single line chart for investment .</h1>
         <SingleLineChart></SingleLineChart>
       </div>
